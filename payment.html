@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Payment</title>
-        <link rel="stylesheet" href="style.css"
-    </head>
-    <body>
-        <div id="container">
-            <h1>Shifu Transactions</h1>
-            <form>
-                <label class="change" for="number">Mobile number :</label>
-                <input class="change" type="text" id="number">
-                <br>
-                <br>
-                <label class="change" for="amount">Amount :</label>
-                <input class="change" type="number" id="amount">
-                <br>
-                <br>
-                
-            </form>
+        <head>
+            <link rel="stylesheet" href="payment.css"/>
+            <title>Shifu Payment</title>
+        </head>
+        <body>
+            <div id="form">
+                <h1>Shifu Transactions</h1>
+                <form>
+                    <input type="number" id="number" placeholder="Enter Phonenumber"> 
+                    <input type="number" id="number" placeholder="Total Amount">
+                </form>
+            <button>
+                <a href="finalpage.html" target="_blank">Complete Transaction</a>
+            </button>
         </div>
-        <button class="change">Complete Payment</button>
-    </body>
-</html>
+        </body>
+    </html>

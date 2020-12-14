@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("./shifu.jpg");
+    background-image: url("images/master-shifu-kung-fu-panda.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
