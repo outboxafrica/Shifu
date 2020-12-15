@@ -3,9 +3,15 @@
     padding:0px;
     box-sizing: border-box;
 }
+
+body{
+    background-color: peru; 
+}
+
 h1{
     text-align:center;
     margin-bottom:50px;
+    font-family: 'Lobster', cursive;
 }
 form{
     text-align: center;
@@ -23,26 +29,27 @@ input{
 }
 .item{
         width:20%;
-        margin:auto;
-        margin-left: 40px;
+        margin-left: 50px;
         font-size: 18px;
+        color: teal;
 }
 body{
     width:80%;
     margin:auto;
-    padding:50px;
-    margin-top: 50px;
-    height: 700px;
-    padding-top: 70px;
+    height: 600px;
+    padding-top: 40px;
 }
 .clothing{
     display:inline-flex;
     flex-direction:column;
     margin-top: 40px;
     margin-left: 40px;
+    font-family: 'Andika New Basic', sans-serif;
 }
 .cart{
     width:30%;
+    color:teal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 .computing{
@@ -50,26 +57,29 @@ body{
     flex-direction:column;
     margin-top: 40px;
     margin-left: 20px;
+    font-family: 'Andika New Basic', sans-serif;
 }
 .home-app{
     display:inline-flex;
     flex-direction:column;
     margin-top: 40px;
-    margin-left: 50px
+    margin-left: 50px;
+    font-family: 'Andika New Basic', sans-serif;
 }
+
 .navigate{
     display: inline-flex;
     flex-direction: row;
-    margin:auto;
+    margin-bottom:40px;
     margin-top: 40px;
     margin-left:50px;
     text-align: center;
     padding:20px;
     font-size: 20px;
+    font-family: 'Andika New Basic', sans-serif;
 }
 a{
     text-decoration:none;
     color: orangered;
-
 }
 
