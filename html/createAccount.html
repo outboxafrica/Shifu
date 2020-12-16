@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>
+        create account
+    </title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <a href="./login.html">login</a>
+        <a class="active" href="./createAccount.html">createAccount</a>
+        <a href="./products.html">products</a>
+    </div>
+    <div id="form" runat="server">
+        <h1>Shifu Login</h1>
+        <form name="login" method="POST">
+            <input type="text" id=firstName placeholder="First Name e.g John">
+            <input type="text" id=lastName placeholder="Last Name e.g Khuruma">
+            <input type="email" id="email" placeholder="Email e.g 123@domain.com">
+            <input type="text" id="name" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="validate();">
+                    <a href=" ../html/products.html " target="_blank" >Submit</a>
+                </button>
+        </form>
+        <div>
+            <a href="./login.html">login</a>
+        </div>
+
+    </div>
+
+    <!--Javascript, do not write code after this line of code-->
+    <script src="../js/shifu.js"></script>
+</body>
+
+</html>
