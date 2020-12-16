@@ -36,21 +36,10 @@ body {
     align-items: center;
 }
 
-.clothing {
-    display: inline-flex;
-    flex-direction: column;
-    margin-top: 40px;
-    margin-left: 40px;
-}
-
-.cart {
-    width: 30%;
-}
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin-left: 5em;
+    width: 250px;
+    margin-left: 5%;
     text-align: center;
     font-family: arial;
 }
@@ -82,7 +71,14 @@ body {
     display: inline-flex;
     flex-direction: column;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
+}
+
+.clothing {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 
 .home-app {
