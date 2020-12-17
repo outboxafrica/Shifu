@@ -36,22 +36,49 @@ body {
     align-items: center;
 }
 
-.clothing {
-    display: inline-flex;
-    flex-direction: column;
-    margin-top: 40px;
-    margin-left: 40px;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    margin-left: 5%;
+    text-align: center;
+    font-family: arial;
 }
 
-.cart {
-    width: 30%;
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.8;
+    background-color: teal;
+    color: #ddd;
 }
 
 .computing {
     display: inline-flex;
     flex-direction: column;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
+}
+
+.clothing {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 
 .home-app {
